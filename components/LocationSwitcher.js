@@ -119,9 +119,6 @@ export default function LocationSwitcher(props) {
               {country.country}
             </li>
           ))}
-          <li onClick={() => handleClick(props)}>
-            {decodeURIComponent(props.location)}
-          </li>
         </ul>
       </div>
     </div>
