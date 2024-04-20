@@ -1,4 +1,4 @@
-import { getLocationLatLong } from "@/lib/getLocationBySearch";
+import { getLocationLatLong } from "@/lib/get-location";
 
 export async function GET(req, { params: { country } }) {
   const data = await getLocationLatLong(country);
